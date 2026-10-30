@@ -1,0 +1,16 @@
+[project]
+name = "job-processor"
+version = "0.1.0"
+description = "A lightweight, modular processor for job execution records"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
